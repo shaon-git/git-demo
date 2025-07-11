@@ -4,11 +4,13 @@
 4. git remote add origin <remote url>  (add the remote repository link. here origin is the alias for remote repository url)
 5. git push -u origin main (push the code to remote repository)
 6. git status (to check code changes)
-7. git diff  (to see the changes made, in the untracked or working copy)
-8. to track only relevant files, create .gitignore file and add non trackable/non relevant files/folder name in it.
+7. git diff  (to see the changes made, in the untracked or working copy/before the commit)
+8. git show <commit number> (to see the code changes after the commit)
+9. git log   (to see all the commits made till date)
+10. to track only relevant files, create .gitignore file and add non trackable/non relevant files/folder name in it.
 
-9. git rm --cached <file> (to unstage a file)
-10. git clone <url> (to clone the repository from GitHub to url. cloning is done only once i.e. first time only)
+11. git rm --cached <file> (to unstage a file)
+12. git clone <url> (to clone the repository from GitHub to url. cloning is done only once i.e. first time only)
 
 
 
