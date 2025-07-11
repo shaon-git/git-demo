@@ -3,6 +3,8 @@
 3. git commit -m "<commit msg>" (commit the files)
 4. git remote add origin <remote url>  (add the remote repository link)
 5. git push -u origin main (push the code to remote repository)
+6. git status (to check code changes)
+7. to track only relevant files, create .gitignore file and add non trackable/non relevant files/folder name in it.
 
 
 
