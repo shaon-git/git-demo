@@ -1,10 +1,15 @@
 1. git init (initialize current project)
-2. git add . (adding the files to be committed)
+2. git add . (adding the files to be committed. sending the files to staging area)
 3. git commit -m "<commit msg>" (commit the files)
-4. git remote add origin <remote url>  (add the remote repository link)
+4. git remote add origin <remote url>  (add the remote repository link. here origin is the alias for remote repository url)
 5. git push -u origin main (push the code to remote repository)
 6. git status (to check code changes)
-7. to track only relevant files, create .gitignore file and add non trackable/non relevant files/folder name in it.
+7. git diff  (to see the changes made, in the untracked or working copy)
+8. to track only relevant files, create .gitignore file and add non trackable/non relevant files/folder name in it.
+
+9. git rm --cached <file> (to unstage a file)
+10. git clone <url> (to clone the repository from GitHub to url. cloning is done only once i.e. first time only)
+
 
 
 
